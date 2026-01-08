@@ -1,0 +1,337 @@
+============================================================
+2026-01-07 17:31:49,060 - botocore.hooks - DEBUG - Changing event name from creating-client-class.iot-data to creating-client-class.iot-data-plane
+2026-01-07 17:31:49,060 - botocore.hooks - DEBUG - Changing event name from before-call.apigateway to before-call.api-gateway
+2026-01-07 17:31:49,060 - botocore.hooks - DEBUG - Changing event name from request-created.machinelearning.Predict to request-created.machine-learning.Predict
+2026-01-07 17:31:49,061 - botocore.hooks - DEBUG - Changing event name from before-parameter-build.autoscaling.CreateLaunchConfiguration to before-parameter-build.auto-scaling.CreateLaunchConfiguration
+2026-01-07 17:31:49,061 - botocore.hooks - DEBUG - Changing event name from before-parameter-build.route53 to before-parameter-build.route-53
+2026-01-07 17:31:49,061 - botocore.hooks - DEBUG - Changing event name from request-created.cloudsearchdomain.Search to request-created.cloudsearch-domain.Search
+2026-01-07 17:31:49,061 - botocore.hooks - DEBUG - Changing event name from docs.*.autoscaling.CreateLaunchConfiguration.complete-section to docs.*.auto-scaling.CreateLaunchConfiguration.complete-section
+2026-01-07 17:31:49,062 - botocore.hooks - DEBUG - Changing event name from before-parameter-build.logs.CreateExportTask to before-parameter-build.cloudwatch-logs.CreateExportTask
+2026-01-07 17:31:49,062 - botocore.hooks - DEBUG - Changing event name from docs.*.logs.CreateExportTask.complete-section to docs.*.cloudwatch-logs.CreateExportTask.complete-section
+2026-01-07 17:31:49,062 - botocore.hooks - DEBUG - Changing event name from before-parameter-build.cloudsearchdomain.Search to before-parameter-build.cloudsearch-domain.Search
+2026-01-07 17:31:49,062 - botocore.hooks - DEBUG - Changing event name from docs.*.cloudsearchdomain.Search.complete-section to docs.*.cloudsearch-domain.Search.complete-section
+2026-01-07 17:31:49,067 - botocore.utils - DEBUG - IMDS ENDPOINT: http://169.254.169.254/
+2026-01-07 17:31:49,070 - botocore.credentials - DEBUG - Looking for credentials via: env
+2026-01-07 17:31:49,070 - botocore.credentials - DEBUG - Looking for credentials via: assume-role
+2026-01-07 17:31:49,070 - botocore.credentials - DEBUG - Looking for credentials via: assume-role-with-web-identity
+2026-01-07 17:31:49,070 - botocore.credentials - DEBUG - Looking for credentials via: sso
+2026-01-07 17:31:49,070 - botocore.credentials - DEBUG - Looking for credentials via: shared-credentials-file
+2026-01-07 17:31:49,070 - botocore.credentials - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2026-01-07 17:31:49,071 - botocore.loaders - DEBUG - Loading JSON file: /Users/naviret/.local/share/mise/installs/python/3.12.7/lib/python3.12/site-packages/botocore/data/endpoints.json
+2026-01-07 17:31:49,078 - botocore.loaders - DEBUG - Loading JSON file: /Users/naviret/.local/share/mise/installs/python/3.12.7/lib/python3.12/site-packages/botocore/data/sdk-default-configuration.json
+2026-01-07 17:31:49,079 - botocore.hooks - DEBUG - Event choose-service-name: calling handler <function handle_service_name_alias at 0x103bc9760>
+2026-01-07 17:31:49,145 - botocore.loaders - DEBUG - Loading JSON file: /Users/naviret/.local/share/mise/installs/python/3.12.7/lib/python3.12/site-packages/botocore/data/bedrock-agentcore/2024-02-28/service-2.json.gz
+2026-01-07 17:31:49,191 - botocore.loaders - DEBUG - Loading JSON file: /Users/naviret/.local/share/mise/installs/python/3.12.7/lib/python3.12/site-packages/botocore/data/bedrock-agentcore/2024-02-28/endpoint-rule-set-1.json.gz
+2026-01-07 17:31:49,191 - botocore.loaders - DEBUG - Loading JSON file: /Users/naviret/.local/share/mise/installs/python/3.12.7/lib/python3.12/site-packages/botocore/data/partitions.json
+2026-01-07 17:31:49,192 - botocore.hooks - DEBUG - Event creating-client-class.bedrock-agentcore: calling handler <function add_generate_presigned_url at 0x103b1e5c0>
+2026-01-07 17:31:49,192 - botocore.configprovider - DEBUG - Looking for endpoint for bedrock-agentcore via: environment_service
+2026-01-07 17:31:49,192 - botocore.configprovider - DEBUG - Looking for endpoint for bedrock-agentcore via: environment_global
+2026-01-07 17:31:49,192 - botocore.configprovider - DEBUG - Looking for endpoint for bedrock-agentcore via: config_service
+2026-01-07 17:31:49,192 - botocore.configprovider - DEBUG - Looking for endpoint for bedrock-agentcore via: config_global
+2026-01-07 17:31:49,192 - botocore.configprovider - DEBUG - No configured endpoint found.
+2026-01-07 17:31:49,192 - botocore.regions - DEBUG - Creating a regex based endpoint for bedrock-agentcore, us-west-2
+2026-01-07 17:31:49,194 - botocore.endpoint - DEBUG - Setting bedrock-agentcore timeout as (60, 900)
+2026-01-07 17:31:49,194 - botocore.hooks - DEBUG - Event creating-serializer.bedrock-agentcore: calling handler <function enable_millisecond_timestamp_precision at 0x103be9940>
+2026-01-07 17:31:49,196 - botocore.loaders - DEBUG - Loading JSON file: /Users/naviret/.local/share/mise/installs/python/3.12.7/lib/python3.12/site-packages/botocore/data/_retry.json
+2026-01-07 17:31:49,196 - botocore.client - DEBUG - Registering retry handlers for service: bedrock-agentcore
+🚀 SLEEP AGENT TEST: 290s duration
+🎯 Session ID: sleep-test-1767835909-1767835909196651
+⏱️  Expected: 290 second sleep
+
+📡 Starting invoke at 17:31:49
+2026-01-07 17:31:49,197 - botocore.hooks - DEBUG - Event before-parameter-build.bedrock-agentcore.InvokeAgentRuntime: calling handler <function generate_idempotent_uuid at 0x103bcb560>
+2026-01-07 17:31:49,197 - botocore.hooks - DEBUG - Event before-parameter-build.bedrock-agentcore.InvokeAgentRuntime: calling handler <function _handle_request_validation_mode_member at 0x103bea160>
+2026-01-07 17:31:49,197 - botocore.regions - DEBUG - Calling endpoint provider with parameters: {'Region': 'us-west-2', 'UseDualStack': False, 'UseFIPS': False}
+2026-01-07 17:31:49,198 - botocore.regions - DEBUG - Endpoint provider result: https://bedrock-agentcore.us-west-2.amazonaws.com
+2026-01-07 17:31:49,198 - botocore.hooks - DEBUG - Event before-call.bedrock-agentcore.InvokeAgentRuntime: calling handler <function add_recursion_detection_header at 0x103bcae80>
+2026-01-07 17:31:49,198 - botocore.hooks - DEBUG - Event before-call.bedrock-agentcore.InvokeAgentRuntime: calling handler <function inject_api_version_header_if_needed at 0x103be9080>
+2026-01-07 17:31:49,198 - botocore.endpoint - DEBUG - Making request for OperationModel(name=InvokeAgentRuntime) with params: {'url_path': '/runtimes/arn%3Aaws%3Abedrock-agentcore%3Aus-west-2%3A724772064768%3Aruntime%2Fsleep_agent-kFTzKmC01Y/invocations', 'query_string': {}, 'method': 'POST', 'headers': {'X-Amzn-Bedrock-AgentCore-Runtime-Session-Id': 'sleep-test-1767835909-1767835909196651', 'User-Agent': 'Boto3/1.41.0 md/Botocore#1.41.0 ua/2.1 os/macos#24.6.0 md/arch#arm64 lang/python#3.12.7 md/pyimpl#CPython m/b,n,Z,D cfg/retry-mode#legacy Botocore/1.41.0'}, 'body': b'{"duration_seconds": 290, "test_type": "sleep_test", "message": "Testing 290s sleep duration"}', 'url': 'https://bedrock-agentcore.us-west-2.amazonaws.com/runtimes/arn%3Aaws%3Abedrock-agentcore%3Aus-west-2%3A724772064768%3Aruntime%2Fsleep_agent-kFTzKmC01Y/invocations', 'context': {'client_region': 'us-west-2', 'client_config': <botocore.config.Config object at 0x1038c1100>, 'has_streaming_input': True, 'auth_type': None, 'unsigned_payload': None, 'auth_options': ['aws.auth#sigv4']}}
+2026-01-07 17:31:49,198 - botocore.hooks - DEBUG - Event request-created.bedrock-agentcore.InvokeAgentRuntime: calling handler <bound method RequestSigner.handler of <botocore.signers.RequestSigner object at 0x106009e80>>
+2026-01-07 17:31:49,198 - botocore.hooks - DEBUG - Event choose-signer.bedrock-agentcore.InvokeAgentRuntime: calling handler <function set_operation_specific_signer at 0x103bcb2e0>
+2026-01-07 17:31:49,198 - botocore.hooks - DEBUG - Event choose-signer.bedrock-agentcore.InvokeAgentRuntime: calling handler <function _set_auth_scheme_preference_signer at 0x103bea2a0>
+2026-01-07 17:31:49,200 - botocore.auth - DEBUG - Calculating signature using v4 auth.
+2026-01-07 17:31:49,200 - botocore.auth - DEBUG - CanonicalRequest:
+POST
+/runtimes/arn%253Aaws%253Abedrock-agentcore%253Aus-west-2%253A724772064768%253Aruntime%252Fsleep_agent-kFTzKmC01Y/invocations
+
+host:bedrock-agentcore.us-west-2.amazonaws.com
+x-amz-date:20260108T013149Z
+x-amz-security-token:IQoJb3JpZ2luX2VjELj//////////wEaCXVzLWVhc3QtMSJHMEUCIDNncr2Rxr+0RvYf918rNAwCFUTVHIf9WQcv+Br5FnkEAiEApS4lX969EmWo6EGgXbcNxUX0l+LiAj2FAs8dI8pi0xoquAMIgf//////////ARAAGgw3MjQ3NzIwNjQ3NjgiDJwmq932pfONOoPTtyqMA/RlLfPysZ0xU5DT7vhkUyqRdNXpj9fwzldmxs0Z7paH7uDB73Hl+dGg/0GpFRSTkCFSgQ0MbjAKEvm7n8C4ET8+1aZjRLPKSFM/Uj886hA9jWuuE4iyVSTPcEJxVizaG1EucpPGf/8+qOMj5U404IlZsInT1i9LLpcuALYFAH6IsOuWDUEDvq7CNzFSwWWXCOkILE8WtLqZi60PGEwAiitvsaAJd/S500cklfVn6G1wvlVdWghbJpfe5aEnFBrdGk36TF583PlZpyeYRQE051TmrJwaltkii+j8LBHQBtO4aFWqmrJFPnMz+5FJbAssraNhixUVXd3lNzZrcfBds0liivqikb6CX6VIp9lAKvOH6QAtiksuLfRUimQLg1e5GXP2kFXoYxu3jerquEdqeKbTCvnMLBYU27mLyn+a/0fMK4xDgM3Drrve617La1K2blS3Ga9gdVMK/ToLeEClA9zZt3n4d1nFTuZ+NUjK57yArHaff861qC6pKPwG/TyHn6AAlgp6gpFETs4ZnDCK3/vKBjqdASFwTWtEp+xoACQBdIQtTpU0X2s+dP0tzr2K0lfTXoC9McDRYWQ0mRMqLhPz0aOa5iClwpKNL0SZWM6HCy1hpxH7/J5i9QsUGGNk11124mb8doGr7WqqzSnP4N7fswVbUT0Zzd1nTnLIgjfDyJWPPGu0pODFd0SEUR3fYSaISWnqyTnwfwt4k2fGglx+1Z4kwGrX7t+5A56fST+OZus=
+x-amzn-bedrock-agentcore-runtime-session-id:sleep-test-1767835909-1767835909196651
+
+host;x-amz-date;x-amz-security-token;x-amzn-bedrock-agentcore-runtime-session-id
+1d003876f96ecfb362255bcb3372bf4c4ef58e6b5408120f6841b603b701aa26
+2026-01-07 17:31:49,200 - botocore.auth - DEBUG - StringToSign:
+AWS4-HMAC-SHA256
+20260108T013149Z
+20260108/us-west-2/bedrock-agentcore/aws4_request
+ef0846390d6c904a575793e2f6a6473743e70a3c80dbbba1dade8242b07f3ca5
+2026-01-07 17:31:49,201 - botocore.auth - DEBUG - Signature:
+e20efb77bf3832193b3e4d112a538b3caeacacf19ed7396c207cfc806c592cd8
+2026-01-07 17:31:49,201 - botocore.hooks - DEBUG - Event request-created.bedrock-agentcore.InvokeAgentRuntime: calling handler <bound method UserAgentString.rebuild_and_replace_user_agent_handler of <botocore.useragent.UserAgentString object at 0x10600a1b0>>
+2026-01-07 17:31:49,201 - botocore.hooks - DEBUG - Event request-created.bedrock-agentcore.InvokeAgentRuntime: calling handler <function add_retry_headers at 0x103be99e0>
+2026-01-07 17:31:49,201 - botocore.endpoint - DEBUG - Sending http request: <AWSPreparedRequest stream_output=True, method=POST, url=https://bedrock-agentcore.us-west-2.amazonaws.com/runtimes/arn%3Aaws%3Abedrock-agentcore%3Aus-west-2%3A724772064768%3Aruntime%2Fsleep_agent-kFTzKmC01Y/invocations, headers={'X-Amzn-Bedrock-AgentCore-Runtime-Session-Id': b'sleep-test-1767835909-1767835909196651', 'User-Agent': b'Boto3/1.41.0 md/Botocore#1.41.0 ua/2.1 os/macos#24.6.0 md/arch#arm64 lang/python#3.12.7 md/pyimpl#CPython m/b,n,Z,D cfg/retry-mode#legacy Botocore/1.41.0', 'X-Amz-Date': b'20260108T013149Z', 'X-Amz-Security-Token': b'IQoJb3JpZ2luX2VjELj//////////wEaCXVzLWVhc3QtMSJHMEUCIDNncr2Rxr+0RvYf918rNAwCFUTVHIf9WQcv+Br5FnkEAiEApS4lX969EmWo6EGgXbcNxUX0l+LiAj2FAs8dI8pi0xoquAMIgf//////////ARAAGgw3MjQ3NzIwNjQ3NjgiDJwmq932pfONOoPTtyqMA/RlLfPysZ0xU5DT7vhkUyqRdNXpj9fwzldmxs0Z7paH7uDB73Hl+dGg/0GpFRSTkCFSgQ0MbjAKEvm7n8C4ET8+1aZjRLPKSFM/Uj886hA9jWuuE4iyVSTPcEJxVizaG1EucpPGf/8+qOMj5U404IlZsInT1i9LLpcuALYFAH6IsOuWDUEDvq7CNzFSwWWXCOkILE8WtLqZi60PGEwAiitvsaAJd/S500cklfVn6G1wvlVdWghbJpfe5aEnFBrdGk36TF583PlZpyeYRQE051TmrJwaltkii+j8LBHQBtO4aFWqmrJFPnMz+5FJbAssraNhixUVXd3lNzZrcfBds0liivqikb6CX6VIp9lAKvOH6QAtiksuLfRUimQLg1e5GXP2kFXoYxu3jerquEdqeKbTCvnMLBYU27mLyn+a/0fMK4xDgM3Drrve617La1K2blS3Ga9gdVMK/ToLeEClA9zZt3n4d1nFTuZ+NUjK57yArHaff861qC6pKPwG/TyHn6AAlgp6gpFETs4ZnDCK3/vKBjqdASFwTWtEp+xoACQBdIQtTpU0X2s+dP0tzr2K0lfTXoC9McDRYWQ0mRMqLhPz0aOa5iClwpKNL0SZWM6HCy1hpxH7/J5i9QsUGGNk11124mb8doGr7WqqzSnP4N7fswVbUT0Zzd1nTnLIgjfDyJWPPGu0pODFd0SEUR3fYSaISWnqyTnwfwt4k2fGglx+1Z4kwGrX7t+5A56fST+OZus=', 'Authorization': b'AWS4-HMAC-SHA256 Credential=ASIA2RP6IBYAGGMY3QV6/20260108/us-west-2/bedrock-agentcore/aws4_request, SignedHeaders=host;x-amz-date;x-amz-security-token;x-amzn-bedrock-agentcore-runtime-session-id, Signature=e20efb77bf3832193b3e4d112a538b3caeacacf19ed7396c207cfc806c592cd8', 'amz-sdk-invocation-id': b'134a077b-5a8c-4c17-a8d6-90abc26a346b', 'amz-sdk-request': b'attempt=1', 'Content-Length': '94'}>
+2026-01-07 17:31:49,204 - botocore.httpsession - DEBUG - Certificate path: /Users/naviret/.local/share/mise/installs/python/3.12.7/lib/python3.12/site-packages/certifi/cacert.pem
+2026-01-07 17:31:49,204 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): bedrock-agentcore.us-west-2.amazonaws.com:443
+2026-01-07 17:36:39,686 - urllib3.connectionpool - DEBUG - https://bedrock-agentcore.us-west-2.amazonaws.com:443 "POST /runtimes/arn%3Aaws%3Abedrock-agentcore%3Aus-west-2%3A724772064768%3Aruntime%2Fsleep_agent-kFTzKmC01Y/invocations HTTP/1.1" 200 None
+2026-01-07 17:36:39,690 - botocore.parsers - DEBUG - Response headers: {'Date': 'Thu, 08 Jan 2026 01:36:39 GMT', 'Content-Type': 'application/json', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'x-amzn-RequestId': '16493c24-0ff3-495b-a531-38c6ba3f7c0c', 'baggage': 'Self=1-695f0905-09c21dd616ac56893bdce9c0,session.id=sleep-test-1767835909-1767835909196651', 'X-Amzn-Bedrock-AgentCore-Runtime-Session-Id': 'sleep-test-1767835909-1767835909196651', 'X-Amzn-Trace-Id': 'Root=1-695f0905-46b4575b4c62426f30a64512;Parent=e75c21391f813642;Sampled=1;Self=1-695f0905-09c21dd616ac56893bdce9c0'}
+2026-01-07 17:36:39,690 - botocore.parsers - DEBUG - Response body:
+<botocore.response.StreamingBody object at 0x10605dc00>
+2026-01-07 17:36:39,692 - botocore.hooks - DEBUG - Event needs-retry.bedrock-agentcore.InvokeAgentRuntime: calling handler <botocore.retryhandler.RetryHandler object at 0x10600acf0>
+2026-01-07 17:36:39,692 - botocore.retryhandler - DEBUG - No retry needed.
+✅ SUCCESS: Response received after 290.5 seconds
+📋 Full Response Object: {'ResponseMetadata': {'RequestId': '16493c24-0ff3-495b-a531-38c6ba3f7c0c', 'HTTPStatusCode': 200, 'HTTPHeaders': {'date': 'Thu, 08 Jan 2026 01:36:39 GMT', 'content-type': 'application/json', 'transfer-encoding': 'chunked', 'connection': 'keep-alive', 'x-amzn-requestid': '16493c24-0ff3-495b-a531-38c6ba3f7c0c', 'baggage': 'Self=1-695f0905-09c21dd616ac56893bdce9c0,session.id=sleep-test-1767835909-1767835909196651', 'x-amzn-bedrock-agentcore-runtime-session-id': 'sleep-test-1767835909-1767835909196651', 'x-amzn-trace-id': 'Root=1-695f0905-46b4575b4c62426f30a64512;Parent=e75c21391f813642;Sampled=1;Self=1-695f0905-09c21dd616ac56893bdce9c0'}, 'RetryAttempts': 0}, 'runtimeSessionId': 'sleep-test-1767835909-1767835909196651', 'traceId': 'Root=1-695f0905-46b4575b4c62426f30a64512;Parent=e75c21391f813642;Sampled=1;Self=1-695f0905-09c21dd616ac56893bdce9c0', 'baggage': 'Self=1-695f0905-09c21dd616ac56893bdce9c0,session.id=sleep-test-1767835909-1767835909196651', 'contentType': 'application/json', 'statusCode': 200, 'response': '{"status": "completed", "duration_seconds": 290, "session_id": "sleep-test-1767835909-1767835909196651", "request_id": "unknown", "completion_time": "2026-01-08T01:36:39.677715", "message": "290s wait test completed successfully"}'}
+⏰ Completed at 17:36:39
+============================================================
+
+⏸️  Waiting 5 seconds before next test...
+============================================================
+2026-01-07 17:36:44,698 - botocore.hooks - DEBUG - Event choose-service-name: calling handler <function handle_service_name_alias at 0x103bc9760>
+2026-01-07 17:36:44,699 - botocore.hooks - DEBUG - Event creating-client-class.bedrock-agentcore: calling handler <function add_generate_presigned_url at 0x103b1e5c0>
+2026-01-07 17:36:44,699 - botocore.configprovider - DEBUG - Looking for endpoint for bedrock-agentcore via: environment_service
+2026-01-07 17:36:44,699 - botocore.configprovider - DEBUG - Looking for endpoint for bedrock-agentcore via: environment_global
+2026-01-07 17:36:44,699 - botocore.configprovider - DEBUG - Looking for endpoint for bedrock-agentcore via: config_service
+2026-01-07 17:36:44,699 - botocore.configprovider - DEBUG - Looking for endpoint for bedrock-agentcore via: config_global
+2026-01-07 17:36:44,699 - botocore.configprovider - DEBUG - No configured endpoint found.
+2026-01-07 17:36:44,699 - botocore.regions - DEBUG - Creating a regex based endpoint for bedrock-agentcore, us-west-2
+2026-01-07 17:36:44,701 - botocore.endpoint - DEBUG - Setting bedrock-agentcore timeout as (60, 900)
+2026-01-07 17:36:44,702 - botocore.hooks - DEBUG - Event creating-serializer.bedrock-agentcore: calling handler <function enable_millisecond_timestamp_precision at 0x103be9940>
+2026-01-07 17:36:44,703 - botocore.client - DEBUG - Registering retry handlers for service: bedrock-agentcore
+🚀 SLEEP AGENT TEST: 292s duration
+🎯 Session ID: sleep-test-1767836204-1767836204703802
+⏱️  Expected: 292 second sleep
+
+📡 Starting invoke at 17:36:44
+2026-01-07 17:36:44,704 - botocore.hooks - DEBUG - Event before-parameter-build.bedrock-agentcore.InvokeAgentRuntime: calling handler <function generate_idempotent_uuid at 0x103bcb560>
+2026-01-07 17:36:44,704 - botocore.hooks - DEBUG - Event before-parameter-build.bedrock-agentcore.InvokeAgentRuntime: calling handler <function _handle_request_validation_mode_member at 0x103bea160>
+2026-01-07 17:36:44,704 - botocore.regions - DEBUG - Calling endpoint provider with parameters: {'Region': 'us-west-2', 'UseDualStack': False, 'UseFIPS': False}
+2026-01-07 17:36:44,704 - botocore.regions - DEBUG - Endpoint provider result: https://bedrock-agentcore.us-west-2.amazonaws.com
+2026-01-07 17:36:44,705 - botocore.hooks - DEBUG - Event before-call.bedrock-agentcore.InvokeAgentRuntime: calling handler <function add_recursion_detection_header at 0x103bcae80>
+2026-01-07 17:36:44,705 - botocore.hooks - DEBUG - Event before-call.bedrock-agentcore.InvokeAgentRuntime: calling handler <function inject_api_version_header_if_needed at 0x103be9080>
+2026-01-07 17:36:44,705 - botocore.endpoint - DEBUG - Making request for OperationModel(name=InvokeAgentRuntime) with params: {'url_path': '/runtimes/arn%3Aaws%3Abedrock-agentcore%3Aus-west-2%3A724772064768%3Aruntime%2Fsleep_agent-kFTzKmC01Y/invocations', 'query_string': {}, 'method': 'POST', 'headers': {'X-Amzn-Bedrock-AgentCore-Runtime-Session-Id': 'sleep-test-1767836204-1767836204703802', 'User-Agent': 'Boto3/1.41.0 md/Botocore#1.41.0 ua/2.1 os/macos#24.6.0 md/arch#arm64 lang/python#3.12.7 md/pyimpl#CPython m/b,Z,D cfg/retry-mode#legacy Botocore/1.41.0'}, 'body': b'{"duration_seconds": 292, "test_type": "sleep_test", "message": "Testing 292s sleep duration"}', 'url': 'https://bedrock-agentcore.us-west-2.amazonaws.com/runtimes/arn%3Aaws%3Abedrock-agentcore%3Aus-west-2%3A724772064768%3Aruntime%2Fsleep_agent-kFTzKmC01Y/invocations', 'context': {'client_region': 'us-west-2', 'client_config': <botocore.config.Config object at 0x10605dc70>, 'has_streaming_input': True, 'auth_type': None, 'unsigned_payload': None, 'auth_options': ['aws.auth#sigv4']}}
+2026-01-07 17:36:44,705 - botocore.hooks - DEBUG - Event request-created.bedrock-agentcore.InvokeAgentRuntime: calling handler <bound method RequestSigner.handler of <botocore.signers.RequestSigner object at 0x10605df70>>
+2026-01-07 17:36:44,705 - botocore.hooks - DEBUG - Event choose-signer.bedrock-agentcore.InvokeAgentRuntime: calling handler <function set_operation_specific_signer at 0x103bcb2e0>
+2026-01-07 17:36:44,705 - botocore.hooks - DEBUG - Event choose-signer.bedrock-agentcore.InvokeAgentRuntime: calling handler <function _set_auth_scheme_preference_signer at 0x103bea2a0>
+2026-01-07 17:36:44,705 - botocore.auth - DEBUG - Calculating signature using v4 auth.
+2026-01-07 17:36:44,705 - botocore.auth - DEBUG - CanonicalRequest:
+POST
+/runtimes/arn%253Aaws%253Abedrock-agentcore%253Aus-west-2%253A724772064768%253Aruntime%252Fsleep_agent-kFTzKmC01Y/invocations
+
+host:bedrock-agentcore.us-west-2.amazonaws.com
+x-amz-date:20260108T013644Z
+x-amz-security-token:IQoJb3JpZ2luX2VjELj//////////wEaCXVzLWVhc3QtMSJHMEUCIDNncr2Rxr+0RvYf918rNAwCFUTVHIf9WQcv+Br5FnkEAiEApS4lX969EmWo6EGgXbcNxUX0l+LiAj2FAs8dI8pi0xoquAMIgf//////////ARAAGgw3MjQ3NzIwNjQ3NjgiDJwmq932pfONOoPTtyqMA/RlLfPysZ0xU5DT7vhkUyqRdNXpj9fwzldmxs0Z7paH7uDB73Hl+dGg/0GpFRSTkCFSgQ0MbjAKEvm7n8C4ET8+1aZjRLPKSFM/Uj886hA9jWuuE4iyVSTPcEJxVizaG1EucpPGf/8+qOMj5U404IlZsInT1i9LLpcuALYFAH6IsOuWDUEDvq7CNzFSwWWXCOkILE8WtLqZi60PGEwAiitvsaAJd/S500cklfVn6G1wvlVdWghbJpfe5aEnFBrdGk36TF583PlZpyeYRQE051TmrJwaltkii+j8LBHQBtO4aFWqmrJFPnMz+5FJbAssraNhixUVXd3lNzZrcfBds0liivqikb6CX6VIp9lAKvOH6QAtiksuLfRUimQLg1e5GXP2kFXoYxu3jerquEdqeKbTCvnMLBYU27mLyn+a/0fMK4xDgM3Drrve617La1K2blS3Ga9gdVMK/ToLeEClA9zZt3n4d1nFTuZ+NUjK57yArHaff861qC6pKPwG/TyHn6AAlgp6gpFETs4ZnDCK3/vKBjqdASFwTWtEp+xoACQBdIQtTpU0X2s+dP0tzr2K0lfTXoC9McDRYWQ0mRMqLhPz0aOa5iClwpKNL0SZWM6HCy1hpxH7/J5i9QsUGGNk11124mb8doGr7WqqzSnP4N7fswVbUT0Zzd1nTnLIgjfDyJWPPGu0pODFd0SEUR3fYSaISWnqyTnwfwt4k2fGglx+1Z4kwGrX7t+5A56fST+OZus=
+x-amzn-bedrock-agentcore-runtime-session-id:sleep-test-1767836204-1767836204703802
+
+host;x-amz-date;x-amz-security-token;x-amzn-bedrock-agentcore-runtime-session-id
+0eef6d706c25bc616a95c50d70fc2c869284e949ce21001897af036e2d3967fe
+2026-01-07 17:36:44,706 - botocore.auth - DEBUG - StringToSign:
+AWS4-HMAC-SHA256
+20260108T013644Z
+20260108/us-west-2/bedrock-agentcore/aws4_request
+e927adb5576d3ea027081570d255cf3dca9c49d5de7f9e94f2ff699141bd9832
+2026-01-07 17:36:44,706 - botocore.auth - DEBUG - Signature:
+19e048e1a55915261ba4edacd4c0b32ad2dccb40a26924e5d7a19d6fc1cd0447
+2026-01-07 17:36:44,706 - botocore.hooks - DEBUG - Event request-created.bedrock-agentcore.InvokeAgentRuntime: calling handler <bound method UserAgentString.rebuild_and_replace_user_agent_handler of <botocore.useragent.UserAgentString object at 0x10605e690>>
+2026-01-07 17:36:44,706 - botocore.hooks - DEBUG - Event request-created.bedrock-agentcore.InvokeAgentRuntime: calling handler <function add_retry_headers at 0x103be99e0>
+2026-01-07 17:36:44,706 - botocore.endpoint - DEBUG - Sending http request: <AWSPreparedRequest stream_output=True, method=POST, url=https://bedrock-agentcore.us-west-2.amazonaws.com/runtimes/arn%3Aaws%3Abedrock-agentcore%3Aus-west-2%3A724772064768%3Aruntime%2Fsleep_agent-kFTzKmC01Y/invocations, headers={'X-Amzn-Bedrock-AgentCore-Runtime-Session-Id': b'sleep-test-1767836204-1767836204703802', 'User-Agent': b'Boto3/1.41.0 md/Botocore#1.41.0 ua/2.1 os/macos#24.6.0 md/arch#arm64 lang/python#3.12.7 md/pyimpl#CPython m/b,Z,D cfg/retry-mode#legacy Botocore/1.41.0', 'X-Amz-Date': b'20260108T013644Z', 'X-Amz-Security-Token': b'IQoJb3JpZ2luX2VjELj//////////wEaCXVzLWVhc3QtMSJHMEUCIDNncr2Rxr+0RvYf918rNAwCFUTVHIf9WQcv+Br5FnkEAiEApS4lX969EmWo6EGgXbcNxUX0l+LiAj2FAs8dI8pi0xoquAMIgf//////////ARAAGgw3MjQ3NzIwNjQ3NjgiDJwmq932pfONOoPTtyqMA/RlLfPysZ0xU5DT7vhkUyqRdNXpj9fwzldmxs0Z7paH7uDB73Hl+dGg/0GpFRSTkCFSgQ0MbjAKEvm7n8C4ET8+1aZjRLPKSFM/Uj886hA9jWuuE4iyVSTPcEJxVizaG1EucpPGf/8+qOMj5U404IlZsInT1i9LLpcuALYFAH6IsOuWDUEDvq7CNzFSwWWXCOkILE8WtLqZi60PGEwAiitvsaAJd/S500cklfVn6G1wvlVdWghbJpfe5aEnFBrdGk36TF583PlZpyeYRQE051TmrJwaltkii+j8LBHQBtO4aFWqmrJFPnMz+5FJbAssraNhixUVXd3lNzZrcfBds0liivqikb6CX6VIp9lAKvOH6QAtiksuLfRUimQLg1e5GXP2kFXoYxu3jerquEdqeKbTCvnMLBYU27mLyn+a/0fMK4xDgM3Drrve617La1K2blS3Ga9gdVMK/ToLeEClA9zZt3n4d1nFTuZ+NUjK57yArHaff861qC6pKPwG/TyHn6AAlgp6gpFETs4ZnDCK3/vKBjqdASFwTWtEp+xoACQBdIQtTpU0X2s+dP0tzr2K0lfTXoC9McDRYWQ0mRMqLhPz0aOa5iClwpKNL0SZWM6HCy1hpxH7/J5i9QsUGGNk11124mb8doGr7WqqzSnP4N7fswVbUT0Zzd1nTnLIgjfDyJWPPGu0pODFd0SEUR3fYSaISWnqyTnwfwt4k2fGglx+1Z4kwGrX7t+5A56fST+OZus=', 'Authorization': b'AWS4-HMAC-SHA256 Credential=ASIA2RP6IBYAGGMY3QV6/20260108/us-west-2/bedrock-agentcore/aws4_request, SignedHeaders=host;x-amz-date;x-amz-security-token;x-amzn-bedrock-agentcore-runtime-session-id, Signature=19e048e1a55915261ba4edacd4c0b32ad2dccb40a26924e5d7a19d6fc1cd0447', 'amz-sdk-invocation-id': b'3236c2c8-562c-47d5-9ad6-eacf76d5ed94', 'amz-sdk-request': b'attempt=1', 'Content-Length': '94'}>
+2026-01-07 17:36:44,706 - botocore.httpsession - DEBUG - Certificate path: /Users/naviret/.local/share/mise/installs/python/3.12.7/lib/python3.12/site-packages/certifi/cacert.pem
+2026-01-07 17:36:44,706 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): bedrock-agentcore.us-west-2.amazonaws.com:443
+2026-01-07 17:41:37,182 - urllib3.connectionpool - DEBUG - https://bedrock-agentcore.us-west-2.amazonaws.com:443 "POST /runtimes/arn%3Aaws%3Abedrock-agentcore%3Aus-west-2%3A724772064768%3Aruntime%2Fsleep_agent-kFTzKmC01Y/invocations HTTP/1.1" 200 None
+2026-01-07 17:41:37,183 - botocore.parsers - DEBUG - Response headers: {'Date': 'Thu, 08 Jan 2026 01:41:37 GMT', 'Content-Type': 'application/json', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'x-amzn-RequestId': '69277b1a-2fa9-4a19-a54e-8fcdb00fd185', 'baggage': 'Self=1-695f0a2c-68d9a5de26883ad373aedd36,session.id=sleep-test-1767836204-1767836204703802', 'X-Amzn-Bedrock-AgentCore-Runtime-Session-Id': 'sleep-test-1767836204-1767836204703802', 'X-Amzn-Trace-Id': 'Root=1-695f0a2c-0038c8c03a12ea6a2163d0ed;Parent=4a871110ed871ece;Sampled=1;Self=1-695f0a2c-68d9a5de26883ad373aedd36'}
+2026-01-07 17:41:37,183 - botocore.parsers - DEBUG - Response body:
+<botocore.response.StreamingBody object at 0x10605fb80>
+2026-01-07 17:41:37,184 - botocore.hooks - DEBUG - Event needs-retry.bedrock-agentcore.InvokeAgentRuntime: calling handler <botocore.retryhandler.RetryHandler object at 0x10605ed80>
+2026-01-07 17:41:37,184 - botocore.retryhandler - DEBUG - No retry needed.
+✅ SUCCESS: Response received after 292.5 seconds
+📋 Full Response Object: {'ResponseMetadata': {'RequestId': '69277b1a-2fa9-4a19-a54e-8fcdb00fd185', 'HTTPStatusCode': 200, 'HTTPHeaders': {'date': 'Thu, 08 Jan 2026 01:41:37 GMT', 'content-type': 'application/json', 'transfer-encoding': 'chunked', 'connection': 'keep-alive', 'x-amzn-requestid': '69277b1a-2fa9-4a19-a54e-8fcdb00fd185', 'baggage': 'Self=1-695f0a2c-68d9a5de26883ad373aedd36,session.id=sleep-test-1767836204-1767836204703802', 'x-amzn-bedrock-agentcore-runtime-session-id': 'sleep-test-1767836204-1767836204703802', 'x-amzn-trace-id': 'Root=1-695f0a2c-0038c8c03a12ea6a2163d0ed;Parent=4a871110ed871ece;Sampled=1;Self=1-695f0a2c-68d9a5de26883ad373aedd36'}, 'RetryAttempts': 0}, 'runtimeSessionId': 'sleep-test-1767836204-1767836204703802', 'traceId': 'Root=1-695f0a2c-0038c8c03a12ea6a2163d0ed;Parent=4a871110ed871ece;Sampled=1;Self=1-695f0a2c-68d9a5de26883ad373aedd36', 'baggage': 'Self=1-695f0a2c-68d9a5de26883ad373aedd36,session.id=sleep-test-1767836204-1767836204703802', 'contentType': 'application/json', 'statusCode': 200, 'response': '{"status": "completed", "duration_seconds": 292, "session_id": "sleep-test-1767836204-1767836204703802", "request_id": "unknown", "completion_time": "2026-01-08T01:41:37.175432", "message": "292s wait test completed successfully"}'}
+⏰ Completed at 17:41:37
+============================================================
+
+⏸️  Waiting 5 seconds before next test...
+============================================================
+2026-01-07 17:41:42,192 - botocore.hooks - DEBUG - Event choose-service-name: calling handler <function handle_service_name_alias at 0x103bc9760>
+2026-01-07 17:41:42,193 - botocore.hooks - DEBUG - Event creating-client-class.bedrock-agentcore: calling handler <function add_generate_presigned_url at 0x103b1e5c0>
+2026-01-07 17:41:42,193 - botocore.configprovider - DEBUG - Looking for endpoint for bedrock-agentcore via: environment_service
+2026-01-07 17:41:42,193 - botocore.configprovider - DEBUG - Looking for endpoint for bedrock-agentcore via: environment_global
+2026-01-07 17:41:42,193 - botocore.configprovider - DEBUG - Looking for endpoint for bedrock-agentcore via: config_service
+2026-01-07 17:41:42,193 - botocore.configprovider - DEBUG - Looking for endpoint for bedrock-agentcore via: config_global
+2026-01-07 17:41:42,193 - botocore.configprovider - DEBUG - No configured endpoint found.
+2026-01-07 17:41:42,193 - botocore.regions - DEBUG - Creating a regex based endpoint for bedrock-agentcore, us-west-2
+2026-01-07 17:41:42,195 - botocore.endpoint - DEBUG - Setting bedrock-agentcore timeout as (60, 900)
+2026-01-07 17:41:42,196 - botocore.hooks - DEBUG - Event creating-serializer.bedrock-agentcore: calling handler <function enable_millisecond_timestamp_precision at 0x103be9940>
+2026-01-07 17:41:42,196 - botocore.client - DEBUG - Registering retry handlers for service: bedrock-agentcore
+🚀 SLEEP AGENT TEST: 295s duration
+🎯 Session ID: sleep-test-1767836502-1767836502197145
+⏱️  Expected: 295 second sleep
+
+📡 Starting invoke at 17:41:42
+2026-01-07 17:41:42,197 - botocore.hooks - DEBUG - Event before-parameter-build.bedrock-agentcore.InvokeAgentRuntime: calling handler <function generate_idempotent_uuid at 0x103bcb560>
+2026-01-07 17:41:42,197 - botocore.hooks - DEBUG - Event before-parameter-build.bedrock-agentcore.InvokeAgentRuntime: calling handler <function _handle_request_validation_mode_member at 0x103bea160>
+2026-01-07 17:41:42,197 - botocore.regions - DEBUG - Calling endpoint provider with parameters: {'Region': 'us-west-2', 'UseDualStack': False, 'UseFIPS': False}
+2026-01-07 17:41:42,197 - botocore.regions - DEBUG - Endpoint provider result: https://bedrock-agentcore.us-west-2.amazonaws.com
+2026-01-07 17:41:42,198 - botocore.hooks - DEBUG - Event before-call.bedrock-agentcore.InvokeAgentRuntime: calling handler <function add_recursion_detection_header at 0x103bcae80>
+2026-01-07 17:41:42,198 - botocore.hooks - DEBUG - Event before-call.bedrock-agentcore.InvokeAgentRuntime: calling handler <function inject_api_version_header_if_needed at 0x103be9080>
+2026-01-07 17:41:42,198 - botocore.endpoint - DEBUG - Making request for OperationModel(name=InvokeAgentRuntime) with params: {'url_path': '/runtimes/arn%3Aaws%3Abedrock-agentcore%3Aus-west-2%3A724772064768%3Aruntime%2Fsleep_agent-kFTzKmC01Y/invocations', 'query_string': {}, 'method': 'POST', 'headers': {'X-Amzn-Bedrock-AgentCore-Runtime-Session-Id': 'sleep-test-1767836502-1767836502197145', 'User-Agent': 'Boto3/1.41.0 md/Botocore#1.41.0 ua/2.1 os/macos#24.6.0 md/arch#arm64 lang/python#3.12.7 md/pyimpl#CPython m/b,Z,D cfg/retry-mode#legacy Botocore/1.41.0'}, 'body': b'{"duration_seconds": 295, "test_type": "sleep_test", "message": "Testing 295s sleep duration"}', 'url': 'https://bedrock-agentcore.us-west-2.amazonaws.com/runtimes/arn%3Aaws%3Abedrock-agentcore%3Aus-west-2%3A724772064768%3Aruntime%2Fsleep_agent-kFTzKmC01Y/invocations', 'context': {'client_region': 'us-west-2', 'client_config': <botocore.config.Config object at 0x10605fbf0>, 'has_streaming_input': True, 'auth_type': None, 'unsigned_payload': None, 'auth_options': ['aws.auth#sigv4']}}
+2026-01-07 17:41:42,198 - botocore.hooks - DEBUG - Event request-created.bedrock-agentcore.InvokeAgentRuntime: calling handler <bound method RequestSigner.handler of <botocore.signers.RequestSigner object at 0x10605fe30>>
+2026-01-07 17:41:42,198 - botocore.hooks - DEBUG - Event choose-signer.bedrock-agentcore.InvokeAgentRuntime: calling handler <function set_operation_specific_signer at 0x103bcb2e0>
+2026-01-07 17:41:42,198 - botocore.hooks - DEBUG - Event choose-signer.bedrock-agentcore.InvokeAgentRuntime: calling handler <function _set_auth_scheme_preference_signer at 0x103bea2a0>
+2026-01-07 17:41:42,198 - botocore.auth - DEBUG - Calculating signature using v4 auth.
+2026-01-07 17:41:42,198 - botocore.auth - DEBUG - CanonicalRequest:
+POST
+/runtimes/arn%253Aaws%253Abedrock-agentcore%253Aus-west-2%253A724772064768%253Aruntime%252Fsleep_agent-kFTzKmC01Y/invocations
+
+host:bedrock-agentcore.us-west-2.amazonaws.com
+x-amz-date:20260108T014142Z
+x-amz-security-token:IQoJb3JpZ2luX2VjELj//////////wEaCXVzLWVhc3QtMSJHMEUCIDNncr2Rxr+0RvYf918rNAwCFUTVHIf9WQcv+Br5FnkEAiEApS4lX969EmWo6EGgXbcNxUX0l+LiAj2FAs8dI8pi0xoquAMIgf//////////ARAAGgw3MjQ3NzIwNjQ3NjgiDJwmq932pfONOoPTtyqMA/RlLfPysZ0xU5DT7vhkUyqRdNXpj9fwzldmxs0Z7paH7uDB73Hl+dGg/0GpFRSTkCFSgQ0MbjAKEvm7n8C4ET8+1aZjRLPKSFM/Uj886hA9jWuuE4iyVSTPcEJxVizaG1EucpPGf/8+qOMj5U404IlZsInT1i9LLpcuALYFAH6IsOuWDUEDvq7CNzFSwWWXCOkILE8WtLqZi60PGEwAiitvsaAJd/S500cklfVn6G1wvlVdWghbJpfe5aEnFBrdGk36TF583PlZpyeYRQE051TmrJwaltkii+j8LBHQBtO4aFWqmrJFPnMz+5FJbAssraNhixUVXd3lNzZrcfBds0liivqikb6CX6VIp9lAKvOH6QAtiksuLfRUimQLg1e5GXP2kFXoYxu3jerquEdqeKbTCvnMLBYU27mLyn+a/0fMK4xDgM3Drrve617La1K2blS3Ga9gdVMK/ToLeEClA9zZt3n4d1nFTuZ+NUjK57yArHaff861qC6pKPwG/TyHn6AAlgp6gpFETs4ZnDCK3/vKBjqdASFwTWtEp+xoACQBdIQtTpU0X2s+dP0tzr2K0lfTXoC9McDRYWQ0mRMqLhPz0aOa5iClwpKNL0SZWM6HCy1hpxH7/J5i9QsUGGNk11124mb8doGr7WqqzSnP4N7fswVbUT0Zzd1nTnLIgjfDyJWPPGu0pODFd0SEUR3fYSaISWnqyTnwfwt4k2fGglx+1Z4kwGrX7t+5A56fST+OZus=
+x-amzn-bedrock-agentcore-runtime-session-id:sleep-test-1767836502-1767836502197145
+
+host;x-amz-date;x-amz-security-token;x-amzn-bedrock-agentcore-runtime-session-id
+caf13a8b59e55b04f0164ab35209796032d5210127615817cd5e7e010744d7c7
+2026-01-07 17:41:42,198 - botocore.auth - DEBUG - StringToSign:
+AWS4-HMAC-SHA256
+20260108T014142Z
+20260108/us-west-2/bedrock-agentcore/aws4_request
+31a2ab85e1c76d5690998182d891178e112ffc1930289675bf80ee6d4c02646e
+2026-01-07 17:41:42,199 - botocore.auth - DEBUG - Signature:
+39b14636a5999849ffe62096fe7d04f3790ca3c70e3871202abae21eb41ff414
+2026-01-07 17:41:42,199 - botocore.hooks - DEBUG - Event request-created.bedrock-agentcore.InvokeAgentRuntime: calling handler <bound method UserAgentString.rebuild_and_replace_user_agent_handler of <botocore.useragent.UserAgentString object at 0x10608c620>>
+2026-01-07 17:41:42,199 - botocore.hooks - DEBUG - Event request-created.bedrock-agentcore.InvokeAgentRuntime: calling handler <function add_retry_headers at 0x103be99e0>
+2026-01-07 17:41:42,199 - botocore.endpoint - DEBUG - Sending http request: <AWSPreparedRequest stream_output=True, method=POST, url=https://bedrock-agentcore.us-west-2.amazonaws.com/runtimes/arn%3Aaws%3Abedrock-agentcore%3Aus-west-2%3A724772064768%3Aruntime%2Fsleep_agent-kFTzKmC01Y/invocations, headers={'X-Amzn-Bedrock-AgentCore-Runtime-Session-Id': b'sleep-test-1767836502-1767836502197145', 'User-Agent': b'Boto3/1.41.0 md/Botocore#1.41.0 ua/2.1 os/macos#24.6.0 md/arch#arm64 lang/python#3.12.7 md/pyimpl#CPython m/b,Z,D cfg/retry-mode#legacy Botocore/1.41.0', 'X-Amz-Date': b'20260108T014142Z', 'X-Amz-Security-Token': b'IQoJb3JpZ2luX2VjELj//////////wEaCXVzLWVhc3QtMSJHMEUCIDNncr2Rxr+0RvYf918rNAwCFUTVHIf9WQcv+Br5FnkEAiEApS4lX969EmWo6EGgXbcNxUX0l+LiAj2FAs8dI8pi0xoquAMIgf//////////ARAAGgw3MjQ3NzIwNjQ3NjgiDJwmq932pfONOoPTtyqMA/RlLfPysZ0xU5DT7vhkUyqRdNXpj9fwzldmxs0Z7paH7uDB73Hl+dGg/0GpFRSTkCFSgQ0MbjAKEvm7n8C4ET8+1aZjRLPKSFM/Uj886hA9jWuuE4iyVSTPcEJxVizaG1EucpPGf/8+qOMj5U404IlZsInT1i9LLpcuALYFAH6IsOuWDUEDvq7CNzFSwWWXCOkILE8WtLqZi60PGEwAiitvsaAJd/S500cklfVn6G1wvlVdWghbJpfe5aEnFBrdGk36TF583PlZpyeYRQE051TmrJwaltkii+j8LBHQBtO4aFWqmrJFPnMz+5FJbAssraNhixUVXd3lNzZrcfBds0liivqikb6CX6VIp9lAKvOH6QAtiksuLfRUimQLg1e5GXP2kFXoYxu3jerquEdqeKbTCvnMLBYU27mLyn+a/0fMK4xDgM3Drrve617La1K2blS3Ga9gdVMK/ToLeEClA9zZt3n4d1nFTuZ+NUjK57yArHaff861qC6pKPwG/TyHn6AAlgp6gpFETs4ZnDCK3/vKBjqdASFwTWtEp+xoACQBdIQtTpU0X2s+dP0tzr2K0lfTXoC9McDRYWQ0mRMqLhPz0aOa5iClwpKNL0SZWM6HCy1hpxH7/J5i9QsUGGNk11124mb8doGr7WqqzSnP4N7fswVbUT0Zzd1nTnLIgjfDyJWPPGu0pODFd0SEUR3fYSaISWnqyTnwfwt4k2fGglx+1Z4kwGrX7t+5A56fST+OZus=', 'Authorization': b'AWS4-HMAC-SHA256 Credential=ASIA2RP6IBYAGGMY3QV6/20260108/us-west-2/bedrock-agentcore/aws4_request, SignedHeaders=host;x-amz-date;x-amz-security-token;x-amzn-bedrock-agentcore-runtime-session-id, Signature=39b14636a5999849ffe62096fe7d04f3790ca3c70e3871202abae21eb41ff414', 'amz-sdk-invocation-id': b'76af53f2-d086-45b7-869d-6604301b2f11', 'amz-sdk-request': b'attempt=1', 'Content-Length': '94'}>
+2026-01-07 17:41:42,199 - botocore.httpsession - DEBUG - Certificate path: /Users/naviret/.local/share/mise/installs/python/3.12.7/lib/python3.12/site-packages/certifi/cacert.pem
+2026-01-07 17:41:42,199 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): bedrock-agentcore.us-west-2.amazonaws.com:443
+2026-01-07 17:46:37,674 - urllib3.connectionpool - DEBUG - https://bedrock-agentcore.us-west-2.amazonaws.com:443 "POST /runtimes/arn%3Aaws%3Abedrock-agentcore%3Aus-west-2%3A724772064768%3Aruntime%2Fsleep_agent-kFTzKmC01Y/invocations HTTP/1.1" 200 None
+2026-01-07 17:46:37,676 - botocore.parsers - DEBUG - Response headers: {'Date': 'Thu, 08 Jan 2026 01:46:37 GMT', 'Content-Type': 'application/json', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'x-amzn-RequestId': 'e3db15d1-e4a1-40b5-99ae-26c093bcbfba', 'baggage': 'Self=1-695f0b56-1ce181cd5c2c42ee002b322c,session.id=sleep-test-1767836502-1767836502197145', 'X-Amzn-Bedrock-AgentCore-Runtime-Session-Id': 'sleep-test-1767836502-1767836502197145', 'X-Amzn-Trace-Id': 'Root=1-695f0b56-51765dda1deeb8162ecc092c;Parent=bb6f77da48cd28ad;Sampled=1;Self=1-695f0b56-1ce181cd5c2c42ee002b322c'}
+2026-01-07 17:46:37,677 - botocore.parsers - DEBUG - Response body:
+<botocore.response.StreamingBody object at 0x10608dbd0>
+2026-01-07 17:46:37,677 - botocore.hooks - DEBUG - Event needs-retry.bedrock-agentcore.InvokeAgentRuntime: calling handler <botocore.retryhandler.RetryHandler object at 0x10608cdd0>
+2026-01-07 17:46:37,677 - botocore.retryhandler - DEBUG - No retry needed.
+✅ SUCCESS: Response received after 295.5 seconds
+📋 Full Response Object: {'ResponseMetadata': {'RequestId': 'e3db15d1-e4a1-40b5-99ae-26c093bcbfba', 'HTTPStatusCode': 200, 'HTTPHeaders': {'date': 'Thu, 08 Jan 2026 01:46:37 GMT', 'content-type': 'application/json', 'transfer-encoding': 'chunked', 'connection': 'keep-alive', 'x-amzn-requestid': 'e3db15d1-e4a1-40b5-99ae-26c093bcbfba', 'baggage': 'Self=1-695f0b56-1ce181cd5c2c42ee002b322c,session.id=sleep-test-1767836502-1767836502197145', 'x-amzn-bedrock-agentcore-runtime-session-id': 'sleep-test-1767836502-1767836502197145', 'x-amzn-trace-id': 'Root=1-695f0b56-51765dda1deeb8162ecc092c;Parent=bb6f77da48cd28ad;Sampled=1;Self=1-695f0b56-1ce181cd5c2c42ee002b322c'}, 'RetryAttempts': 0}, 'runtimeSessionId': 'sleep-test-1767836502-1767836502197145', 'traceId': 'Root=1-695f0b56-51765dda1deeb8162ecc092c;Parent=bb6f77da48cd28ad;Sampled=1;Self=1-695f0b56-1ce181cd5c2c42ee002b322c', 'baggage': 'Self=1-695f0b56-1ce181cd5c2c42ee002b322c,session.id=sleep-test-1767836502-1767836502197145', 'contentType': 'application/json', 'statusCode': 200, 'response': '{"status": "completed", "duration_seconds": 295, "session_id": "sleep-test-1767836502-1767836502197145", "request_id": "unknown", "completion_time": "2026-01-08T01:46:37.661286", "message": "295s wait test completed successfully"}'}
+⏰ Completed at 17:46:37
+============================================================
+
+⏸️  Waiting 5 seconds before next test...
+============================================================
+2026-01-07 17:46:42,685 - botocore.hooks - DEBUG - Event choose-service-name: calling handler <function handle_service_name_alias at 0x103bc9760>
+2026-01-07 17:46:42,686 - botocore.hooks - DEBUG - Event creating-client-class.bedrock-agentcore: calling handler <function add_generate_presigned_url at 0x103b1e5c0>
+2026-01-07 17:46:42,686 - botocore.configprovider - DEBUG - Looking for endpoint for bedrock-agentcore via: environment_service
+2026-01-07 17:46:42,686 - botocore.configprovider - DEBUG - Looking for endpoint for bedrock-agentcore via: environment_global
+2026-01-07 17:46:42,686 - botocore.configprovider - DEBUG - Looking for endpoint for bedrock-agentcore via: config_service
+2026-01-07 17:46:42,686 - botocore.configprovider - DEBUG - Looking for endpoint for bedrock-agentcore via: config_global
+2026-01-07 17:46:42,686 - botocore.configprovider - DEBUG - No configured endpoint found.
+2026-01-07 17:46:42,686 - botocore.regions - DEBUG - Creating a regex based endpoint for bedrock-agentcore, us-west-2
+2026-01-07 17:46:42,688 - botocore.endpoint - DEBUG - Setting bedrock-agentcore timeout as (60, 900)
+2026-01-07 17:46:42,691 - botocore.hooks - DEBUG - Event creating-serializer.bedrock-agentcore: calling handler <function enable_millisecond_timestamp_precision at 0x103be9940>
+2026-01-07 17:46:42,695 - botocore.client - DEBUG - Registering retry handlers for service: bedrock-agentcore
+🚀 SLEEP AGENT TEST: 297s duration
+🎯 Session ID: sleep-test-1767836802-1767836802696671
+⏱️  Expected: 297 second sleep
+
+📡 Starting invoke at 17:46:42
+2026-01-07 17:46:42,697 - botocore.hooks - DEBUG - Event before-parameter-build.bedrock-agentcore.InvokeAgentRuntime: calling handler <function generate_idempotent_uuid at 0x103bcb560>
+2026-01-07 17:46:42,697 - botocore.hooks - DEBUG - Event before-parameter-build.bedrock-agentcore.InvokeAgentRuntime: calling handler <function _handle_request_validation_mode_member at 0x103bea160>
+2026-01-07 17:46:42,697 - botocore.regions - DEBUG - Calling endpoint provider with parameters: {'Region': 'us-west-2', 'UseDualStack': False, 'UseFIPS': False}
+2026-01-07 17:46:42,701 - botocore.regions - DEBUG - Endpoint provider result: https://bedrock-agentcore.us-west-2.amazonaws.com
+2026-01-07 17:46:42,704 - botocore.hooks - DEBUG - Event before-call.bedrock-agentcore.InvokeAgentRuntime: calling handler <function add_recursion_detection_header at 0x103bcae80>
+2026-01-07 17:46:42,704 - botocore.hooks - DEBUG - Event before-call.bedrock-agentcore.InvokeAgentRuntime: calling handler <function inject_api_version_header_if_needed at 0x103be9080>
+2026-01-07 17:46:42,704 - botocore.endpoint - DEBUG - Making request for OperationModel(name=InvokeAgentRuntime) with params: {'url_path': '/runtimes/arn%3Aaws%3Abedrock-agentcore%3Aus-west-2%3A724772064768%3Aruntime%2Fsleep_agent-kFTzKmC01Y/invocations', 'query_string': {}, 'method': 'POST', 'headers': {'X-Amzn-Bedrock-AgentCore-Runtime-Session-Id': 'sleep-test-1767836802-1767836802696671', 'User-Agent': 'Boto3/1.41.0 md/Botocore#1.41.0 ua/2.1 os/macos#24.6.0 md/arch#arm64 lang/python#3.12.7 md/pyimpl#CPython m/b,Z,D cfg/retry-mode#legacy Botocore/1.41.0'}, 'body': b'{"duration_seconds": 297, "test_type": "sleep_test", "message": "Testing 297s sleep duration"}', 'url': 'https://bedrock-agentcore.us-west-2.amazonaws.com/runtimes/arn%3Aaws%3Abedrock-agentcore%3Aus-west-2%3A724772064768%3Aruntime%2Fsleep_agent-kFTzKmC01Y/invocations', 'context': {'client_region': 'us-west-2', 'client_config': <botocore.config.Config object at 0x10608dc40>, 'has_streaming_input': True, 'auth_type': None, 'unsigned_payload': None, 'auth_options': ['aws.auth#sigv4']}}
+2026-01-07 17:46:42,709 - botocore.hooks - DEBUG - Event request-created.bedrock-agentcore.InvokeAgentRuntime: calling handler <bound method RequestSigner.handler of <botocore.signers.RequestSigner object at 0x10608d370>>
+2026-01-07 17:46:42,709 - botocore.hooks - DEBUG - Event choose-signer.bedrock-agentcore.InvokeAgentRuntime: calling handler <function set_operation_specific_signer at 0x103bcb2e0>
+2026-01-07 17:46:42,710 - botocore.hooks - DEBUG - Event choose-signer.bedrock-agentcore.InvokeAgentRuntime: calling handler <function _set_auth_scheme_preference_signer at 0x103bea2a0>
+2026-01-07 17:46:42,710 - botocore.auth - DEBUG - Calculating signature using v4 auth.
+2026-01-07 17:46:42,711 - botocore.auth - DEBUG - CanonicalRequest:
+POST
+/runtimes/arn%253Aaws%253Abedrock-agentcore%253Aus-west-2%253A724772064768%253Aruntime%252Fsleep_agent-kFTzKmC01Y/invocations
+
+host:bedrock-agentcore.us-west-2.amazonaws.com
+x-amz-date:20260108T014642Z
+x-amz-security-token:IQoJb3JpZ2luX2VjELj//////////wEaCXVzLWVhc3QtMSJHMEUCIDNncr2Rxr+0RvYf918rNAwCFUTVHIf9WQcv+Br5FnkEAiEApS4lX969EmWo6EGgXbcNxUX0l+LiAj2FAs8dI8pi0xoquAMIgf//////////ARAAGgw3MjQ3NzIwNjQ3NjgiDJwmq932pfONOoPTtyqMA/RlLfPysZ0xU5DT7vhkUyqRdNXpj9fwzldmxs0Z7paH7uDB73Hl+dGg/0GpFRSTkCFSgQ0MbjAKEvm7n8C4ET8+1aZjRLPKSFM/Uj886hA9jWuuE4iyVSTPcEJxVizaG1EucpPGf/8+qOMj5U404IlZsInT1i9LLpcuALYFAH6IsOuWDUEDvq7CNzFSwWWXCOkILE8WtLqZi60PGEwAiitvsaAJd/S500cklfVn6G1wvlVdWghbJpfe5aEnFBrdGk36TF583PlZpyeYRQE051TmrJwaltkii+j8LBHQBtO4aFWqmrJFPnMz+5FJbAssraNhixUVXd3lNzZrcfBds0liivqikb6CX6VIp9lAKvOH6QAtiksuLfRUimQLg1e5GXP2kFXoYxu3jerquEdqeKbTCvnMLBYU27mLyn+a/0fMK4xDgM3Drrve617La1K2blS3Ga9gdVMK/ToLeEClA9zZt3n4d1nFTuZ+NUjK57yArHaff861qC6pKPwG/TyHn6AAlgp6gpFETs4ZnDCK3/vKBjqdASFwTWtEp+xoACQBdIQtTpU0X2s+dP0tzr2K0lfTXoC9McDRYWQ0mRMqLhPz0aOa5iClwpKNL0SZWM6HCy1hpxH7/J5i9QsUGGNk11124mb8doGr7WqqzSnP4N7fswVbUT0Zzd1nTnLIgjfDyJWPPGu0pODFd0SEUR3fYSaISWnqyTnwfwt4k2fGglx+1Z4kwGrX7t+5A56fST+OZus=
+x-amzn-bedrock-agentcore-runtime-session-id:sleep-test-1767836802-1767836802696671
+
+host;x-amz-date;x-amz-security-token;x-amzn-bedrock-agentcore-runtime-session-id
+abb6e1a9cd636f1c466320a0e9a4fffd04caff4647d7aa8807f387c317dc19b6
+2026-01-07 17:46:42,711 - botocore.auth - DEBUG - StringToSign:
+AWS4-HMAC-SHA256
+20260108T014642Z
+20260108/us-west-2/bedrock-agentcore/aws4_request
+2851a5c345770bb0c1ef47ef5000af5b56294eac1a7e2309cdd2f997866470d1
+2026-01-07 17:46:42,711 - botocore.auth - DEBUG - Signature:
+6618bbfb31259f919a85c573b61baba354dd07492f273f0e286b3c54af8cb36c
+2026-01-07 17:46:42,711 - botocore.hooks - DEBUG - Event request-created.bedrock-agentcore.InvokeAgentRuntime: calling handler <bound method UserAgentString.rebuild_and_replace_user_agent_handler of <botocore.useragent.UserAgentString object at 0x10608e480>>
+2026-01-07 17:46:42,712 - botocore.hooks - DEBUG - Event request-created.bedrock-agentcore.InvokeAgentRuntime: calling handler <function add_retry_headers at 0x103be99e0>
+2026-01-07 17:46:42,712 - botocore.endpoint - DEBUG - Sending http request: <AWSPreparedRequest stream_output=True, method=POST, url=https://bedrock-agentcore.us-west-2.amazonaws.com/runtimes/arn%3Aaws%3Abedrock-agentcore%3Aus-west-2%3A724772064768%3Aruntime%2Fsleep_agent-kFTzKmC01Y/invocations, headers={'X-Amzn-Bedrock-AgentCore-Runtime-Session-Id': b'sleep-test-1767836802-1767836802696671', 'User-Agent': b'Boto3/1.41.0 md/Botocore#1.41.0 ua/2.1 os/macos#24.6.0 md/arch#arm64 lang/python#3.12.7 md/pyimpl#CPython m/b,Z,D cfg/retry-mode#legacy Botocore/1.41.0', 'X-Amz-Date': b'20260108T014642Z', 'X-Amz-Security-Token': b'IQoJb3JpZ2luX2VjELj//////////wEaCXVzLWVhc3QtMSJHMEUCIDNncr2Rxr+0RvYf918rNAwCFUTVHIf9WQcv+Br5FnkEAiEApS4lX969EmWo6EGgXbcNxUX0l+LiAj2FAs8dI8pi0xoquAMIgf//////////ARAAGgw3MjQ3NzIwNjQ3NjgiDJwmq932pfONOoPTtyqMA/RlLfPysZ0xU5DT7vhkUyqRdNXpj9fwzldmxs0Z7paH7uDB73Hl+dGg/0GpFRSTkCFSgQ0MbjAKEvm7n8C4ET8+1aZjRLPKSFM/Uj886hA9jWuuE4iyVSTPcEJxVizaG1EucpPGf/8+qOMj5U404IlZsInT1i9LLpcuALYFAH6IsOuWDUEDvq7CNzFSwWWXCOkILE8WtLqZi60PGEwAiitvsaAJd/S500cklfVn6G1wvlVdWghbJpfe5aEnFBrdGk36TF583PlZpyeYRQE051TmrJwaltkii+j8LBHQBtO4aFWqmrJFPnMz+5FJbAssraNhixUVXd3lNzZrcfBds0liivqikb6CX6VIp9lAKvOH6QAtiksuLfRUimQLg1e5GXP2kFXoYxu3jerquEdqeKbTCvnMLBYU27mLyn+a/0fMK4xDgM3Drrve617La1K2blS3Ga9gdVMK/ToLeEClA9zZt3n4d1nFTuZ+NUjK57yArHaff861qC6pKPwG/TyHn6AAlgp6gpFETs4ZnDCK3/vKBjqdASFwTWtEp+xoACQBdIQtTpU0X2s+dP0tzr2K0lfTXoC9McDRYWQ0mRMqLhPz0aOa5iClwpKNL0SZWM6HCy1hpxH7/J5i9QsUGGNk11124mb8doGr7WqqzSnP4N7fswVbUT0Zzd1nTnLIgjfDyJWPPGu0pODFd0SEUR3fYSaISWnqyTnwfwt4k2fGglx+1Z4kwGrX7t+5A56fST+OZus=', 'Authorization': b'AWS4-HMAC-SHA256 Credential=ASIA2RP6IBYAGGMY3QV6/20260108/us-west-2/bedrock-agentcore/aws4_request, SignedHeaders=host;x-amz-date;x-amz-security-token;x-amzn-bedrock-agentcore-runtime-session-id, Signature=6618bbfb31259f919a85c573b61baba354dd07492f273f0e286b3c54af8cb36c', 'amz-sdk-invocation-id': b'e4c696b1-2280-48a6-90f1-eb3028de8692', 'amz-sdk-request': b'attempt=1', 'Content-Length': '94'}>
+2026-01-07 17:46:42,714 - botocore.httpsession - DEBUG - Certificate path: /Users/naviret/.local/share/mise/installs/python/3.12.7/lib/python3.12/site-packages/certifi/cacert.pem
+2026-01-07 17:46:42,714 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): bedrock-agentcore.us-west-2.amazonaws.com:443
+2026-01-07 17:51:40,237 - urllib3.connectionpool - DEBUG - https://bedrock-agentcore.us-west-2.amazonaws.com:443 "POST /runtimes/arn%3Aaws%3Abedrock-agentcore%3Aus-west-2%3A724772064768%3Aruntime%2Fsleep_agent-kFTzKmC01Y/invocations HTTP/1.1" 200 None
+2026-01-07 17:51:40,238 - botocore.parsers - DEBUG - Response headers: {'Date': 'Thu, 08 Jan 2026 01:51:40 GMT', 'Content-Type': 'application/json', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'x-amzn-RequestId': 'f3070552-f8d5-4104-b32d-39ac4ccb2708', 'baggage': 'Self=1-695f0c82-60076e61749b09ac0c2c0faa,session.id=sleep-test-1767836802-1767836802696671', 'X-Amzn-Bedrock-AgentCore-Runtime-Session-Id': 'sleep-test-1767836802-1767836802696671', 'X-Amzn-Trace-Id': 'Root=1-695f0c82-687a998876f9e9f7325e01c6;Parent=9c5cb4fc5b2da09c;Sampled=1;Self=1-695f0c82-60076e61749b09ac0c2c0faa'}
+2026-01-07 17:51:40,238 - botocore.parsers - DEBUG - Response body:
+<botocore.response.StreamingBody object at 0x10608f9d0>
+2026-01-07 17:51:40,239 - botocore.hooks - DEBUG - Event needs-retry.bedrock-agentcore.InvokeAgentRuntime: calling handler <botocore.retryhandler.RetryHandler object at 0x10608ec30>
+2026-01-07 17:51:40,239 - botocore.retryhandler - DEBUG - No retry needed.
+✅ SUCCESS: Response received after 297.5 seconds
+📋 Full Response Object: {'ResponseMetadata': {'RequestId': 'f3070552-f8d5-4104-b32d-39ac4ccb2708', 'HTTPStatusCode': 200, 'HTTPHeaders': {'date': 'Thu, 08 Jan 2026 01:51:40 GMT', 'content-type': 'application/json', 'transfer-encoding': 'chunked', 'connection': 'keep-alive', 'x-amzn-requestid': 'f3070552-f8d5-4104-b32d-39ac4ccb2708', 'baggage': 'Self=1-695f0c82-60076e61749b09ac0c2c0faa,session.id=sleep-test-1767836802-1767836802696671', 'x-amzn-bedrock-agentcore-runtime-session-id': 'sleep-test-1767836802-1767836802696671', 'x-amzn-trace-id': 'Root=1-695f0c82-687a998876f9e9f7325e01c6;Parent=9c5cb4fc5b2da09c;Sampled=1;Self=1-695f0c82-60076e61749b09ac0c2c0faa'}, 'RetryAttempts': 0}, 'runtimeSessionId': 'sleep-test-1767836802-1767836802696671', 'traceId': 'Root=1-695f0c82-687a998876f9e9f7325e01c6;Parent=9c5cb4fc5b2da09c;Sampled=1;Self=1-695f0c82-60076e61749b09ac0c2c0faa', 'baggage': 'Self=1-695f0c82-60076e61749b09ac0c2c0faa,session.id=sleep-test-1767836802-1767836802696671', 'contentType': 'application/json', 'statusCode': 200, 'response': '{"status": "completed", "duration_seconds": 297, "session_id": "sleep-test-1767836802-1767836802696671", "request_id": "unknown", "completion_time": "2026-01-08T01:51:40.223947", "message": "297s wait test completed successfully"}'}
+⏰ Completed at 17:51:40
+============================================================
+
+⏸️  Waiting 5 seconds before next test...
+============================================================
+2026-01-07 17:51:45,248 - botocore.hooks - DEBUG - Event choose-service-name: calling handler <function handle_service_name_alias at 0x103bc9760>
+2026-01-07 17:51:45,249 - botocore.hooks - DEBUG - Event creating-client-class.bedrock-agentcore: calling handler <function add_generate_presigned_url at 0x103b1e5c0>
+2026-01-07 17:51:45,249 - botocore.configprovider - DEBUG - Looking for endpoint for bedrock-agentcore via: environment_service
+2026-01-07 17:51:45,249 - botocore.configprovider - DEBUG - Looking for endpoint for bedrock-agentcore via: environment_global
+2026-01-07 17:51:45,249 - botocore.configprovider - DEBUG - Looking for endpoint for bedrock-agentcore via: config_service
+2026-01-07 17:51:45,249 - botocore.configprovider - DEBUG - Looking for endpoint for bedrock-agentcore via: config_global
+2026-01-07 17:51:45,249 - botocore.configprovider - DEBUG - No configured endpoint found.
+2026-01-07 17:51:45,250 - botocore.regions - DEBUG - Creating a regex based endpoint for bedrock-agentcore, us-west-2
+2026-01-07 17:51:45,252 - botocore.endpoint - DEBUG - Setting bedrock-agentcore timeout as (60, 900)
+2026-01-07 17:51:45,252 - botocore.hooks - DEBUG - Event creating-serializer.bedrock-agentcore: calling handler <function enable_millisecond_timestamp_precision at 0x103be9940>
+2026-01-07 17:51:45,255 - botocore.client - DEBUG - Registering retry handlers for service: bedrock-agentcore
+🚀 SLEEP AGENT TEST: 300s duration
+🎯 Session ID: sleep-test-1767837105-1767837105255520
+⏱️  Expected: 300 second sleep
+
+📡 Starting invoke at 17:51:45
+2026-01-07 17:51:45,255 - botocore.hooks - DEBUG - Event before-parameter-build.bedrock-agentcore.InvokeAgentRuntime: calling handler <function generate_idempotent_uuid at 0x103bcb560>
+2026-01-07 17:51:45,256 - botocore.hooks - DEBUG - Event before-parameter-build.bedrock-agentcore.InvokeAgentRuntime: calling handler <function _handle_request_validation_mode_member at 0x103bea160>
+2026-01-07 17:51:45,256 - botocore.regions - DEBUG - Calling endpoint provider with parameters: {'Region': 'us-west-2', 'UseDualStack': False, 'UseFIPS': False}
+2026-01-07 17:51:45,256 - botocore.regions - DEBUG - Endpoint provider result: https://bedrock-agentcore.us-west-2.amazonaws.com
+2026-01-07 17:51:45,256 - botocore.hooks - DEBUG - Event before-call.bedrock-agentcore.InvokeAgentRuntime: calling handler <function add_recursion_detection_header at 0x103bcae80>
+2026-01-07 17:51:45,256 - botocore.hooks - DEBUG - Event before-call.bedrock-agentcore.InvokeAgentRuntime: calling handler <function inject_api_version_header_if_needed at 0x103be9080>
+2026-01-07 17:51:45,256 - botocore.endpoint - DEBUG - Making request for OperationModel(name=InvokeAgentRuntime) with params: {'url_path': '/runtimes/arn%3Aaws%3Abedrock-agentcore%3Aus-west-2%3A724772064768%3Aruntime%2Fsleep_agent-kFTzKmC01Y/invocations', 'query_string': {}, 'method': 'POST', 'headers': {'X-Amzn-Bedrock-AgentCore-Runtime-Session-Id': 'sleep-test-1767837105-1767837105255520', 'User-Agent': 'Boto3/1.41.0 md/Botocore#1.41.0 ua/2.1 os/macos#24.6.0 md/arch#arm64 lang/python#3.12.7 md/pyimpl#CPython m/b,Z,D cfg/retry-mode#legacy Botocore/1.41.0'}, 'body': b'{"duration_seconds": 300, "test_type": "sleep_test", "message": "Testing 300s sleep duration"}', 'url': 'https://bedrock-agentcore.us-west-2.amazonaws.com/runtimes/arn%3Aaws%3Abedrock-agentcore%3Aus-west-2%3A724772064768%3Aruntime%2Fsleep_agent-kFTzKmC01Y/invocations', 'context': {'client_region': 'us-west-2', 'client_config': <botocore.config.Config object at 0x10608faa0>, 'has_streaming_input': True, 'auth_type': None, 'unsigned_payload': None, 'auth_options': ['aws.auth#sigv4']}}
+2026-01-07 17:51:45,257 - botocore.hooks - DEBUG - Event request-created.bedrock-agentcore.InvokeAgentRuntime: calling handler <bound method RequestSigner.handler of <botocore.signers.RequestSigner object at 0x10608fa40>>
+2026-01-07 17:51:45,257 - botocore.hooks - DEBUG - Event choose-signer.bedrock-agentcore.InvokeAgentRuntime: calling handler <function set_operation_specific_signer at 0x103bcb2e0>
+2026-01-07 17:51:45,257 - botocore.hooks - DEBUG - Event choose-signer.bedrock-agentcore.InvokeAgentRuntime: calling handler <function _set_auth_scheme_preference_signer at 0x103bea2a0>
+2026-01-07 17:51:45,257 - botocore.auth - DEBUG - Calculating signature using v4 auth.
+2026-01-07 17:51:45,258 - botocore.auth - DEBUG - CanonicalRequest:
+POST
+/runtimes/arn%253Aaws%253Abedrock-agentcore%253Aus-west-2%253A724772064768%253Aruntime%252Fsleep_agent-kFTzKmC01Y/invocations
+
+host:bedrock-agentcore.us-west-2.amazonaws.com
+x-amz-date:20260108T015145Z
+x-amz-security-token:IQoJb3JpZ2luX2VjELj//////////wEaCXVzLWVhc3QtMSJHMEUCIDNncr2Rxr+0RvYf918rNAwCFUTVHIf9WQcv+Br5FnkEAiEApS4lX969EmWo6EGgXbcNxUX0l+LiAj2FAs8dI8pi0xoquAMIgf//////////ARAAGgw3MjQ3NzIwNjQ3NjgiDJwmq932pfONOoPTtyqMA/RlLfPysZ0xU5DT7vhkUyqRdNXpj9fwzldmxs0Z7paH7uDB73Hl+dGg/0GpFRSTkCFSgQ0MbjAKEvm7n8C4ET8+1aZjRLPKSFM/Uj886hA9jWuuE4iyVSTPcEJxVizaG1EucpPGf/8+qOMj5U404IlZsInT1i9LLpcuALYFAH6IsOuWDUEDvq7CNzFSwWWXCOkILE8WtLqZi60PGEwAiitvsaAJd/S500cklfVn6G1wvlVdWghbJpfe5aEnFBrdGk36TF583PlZpyeYRQE051TmrJwaltkii+j8LBHQBtO4aFWqmrJFPnMz+5FJbAssraNhixUVXd3lNzZrcfBds0liivqikb6CX6VIp9lAKvOH6QAtiksuLfRUimQLg1e5GXP2kFXoYxu3jerquEdqeKbTCvnMLBYU27mLyn+a/0fMK4xDgM3Drrve617La1K2blS3Ga9gdVMK/ToLeEClA9zZt3n4d1nFTuZ+NUjK57yArHaff861qC6pKPwG/TyHn6AAlgp6gpFETs4ZnDCK3/vKBjqdASFwTWtEp+xoACQBdIQtTpU0X2s+dP0tzr2K0lfTXoC9McDRYWQ0mRMqLhPz0aOa5iClwpKNL0SZWM6HCy1hpxH7/J5i9QsUGGNk11124mb8doGr7WqqzSnP4N7fswVbUT0Zzd1nTnLIgjfDyJWPPGu0pODFd0SEUR3fYSaISWnqyTnwfwt4k2fGglx+1Z4kwGrX7t+5A56fST+OZus=
+x-amzn-bedrock-agentcore-runtime-session-id:sleep-test-1767837105-1767837105255520
+
+host;x-amz-date;x-amz-security-token;x-amzn-bedrock-agentcore-runtime-session-id
+744369b88c0f3fe343444e397c2a364c1a7c1fc6821968160c61c8e07af4cfea
+2026-01-07 17:51:45,258 - botocore.auth - DEBUG - StringToSign:
+AWS4-HMAC-SHA256
+20260108T015145Z
+20260108/us-west-2/bedrock-agentcore/aws4_request
+59b8486eb8b326da4062944b9b645b7adc8fa748d80f7bd8636f2c2c75f6a983
+2026-01-07 17:51:45,258 - botocore.auth - DEBUG - Signature:
+f10e4083fdcbf4261cd6e4dc118daa3f31ff161cc6fddcfb20f0adae57036ff1
+2026-01-07 17:51:45,258 - botocore.hooks - DEBUG - Event request-created.bedrock-agentcore.InvokeAgentRuntime: calling handler <bound method UserAgentString.rebuild_and_replace_user_agent_handler of <botocore.useragent.UserAgentString object at 0x1060b4890>>
+2026-01-07 17:51:45,258 - botocore.hooks - DEBUG - Event request-created.bedrock-agentcore.InvokeAgentRuntime: calling handler <function add_retry_headers at 0x103be99e0>
+2026-01-07 17:51:45,258 - botocore.endpoint - DEBUG - Sending http request: <AWSPreparedRequest stream_output=True, method=POST, url=https://bedrock-agentcore.us-west-2.amazonaws.com/runtimes/arn%3Aaws%3Abedrock-agentcore%3Aus-west-2%3A724772064768%3Aruntime%2Fsleep_agent-kFTzKmC01Y/invocations, headers={'X-Amzn-Bedrock-AgentCore-Runtime-Session-Id': b'sleep-test-1767837105-1767837105255520', 'User-Agent': b'Boto3/1.41.0 md/Botocore#1.41.0 ua/2.1 os/macos#24.6.0 md/arch#arm64 lang/python#3.12.7 md/pyimpl#CPython m/b,Z,D cfg/retry-mode#legacy Botocore/1.41.0', 'X-Amz-Date': b'20260108T015145Z', 'X-Amz-Security-Token': b'IQoJb3JpZ2luX2VjELj//////////wEaCXVzLWVhc3QtMSJHMEUCIDNncr2Rxr+0RvYf918rNAwCFUTVHIf9WQcv+Br5FnkEAiEApS4lX969EmWo6EGgXbcNxUX0l+LiAj2FAs8dI8pi0xoquAMIgf//////////ARAAGgw3MjQ3NzIwNjQ3NjgiDJwmq932pfONOoPTtyqMA/RlLfPysZ0xU5DT7vhkUyqRdNXpj9fwzldmxs0Z7paH7uDB73Hl+dGg/0GpFRSTkCFSgQ0MbjAKEvm7n8C4ET8+1aZjRLPKSFM/Uj886hA9jWuuE4iyVSTPcEJxVizaG1EucpPGf/8+qOMj5U404IlZsInT1i9LLpcuALYFAH6IsOuWDUEDvq7CNzFSwWWXCOkILE8WtLqZi60PGEwAiitvsaAJd/S500cklfVn6G1wvlVdWghbJpfe5aEnFBrdGk36TF583PlZpyeYRQE051TmrJwaltkii+j8LBHQBtO4aFWqmrJFPnMz+5FJbAssraNhixUVXd3lNzZrcfBds0liivqikb6CX6VIp9lAKvOH6QAtiksuLfRUimQLg1e5GXP2kFXoYxu3jerquEdqeKbTCvnMLBYU27mLyn+a/0fMK4xDgM3Drrve617La1K2blS3Ga9gdVMK/ToLeEClA9zZt3n4d1nFTuZ+NUjK57yArHaff861qC6pKPwG/TyHn6AAlgp6gpFETs4ZnDCK3/vKBjqdASFwTWtEp+xoACQBdIQtTpU0X2s+dP0tzr2K0lfTXoC9McDRYWQ0mRMqLhPz0aOa5iClwpKNL0SZWM6HCy1hpxH7/J5i9QsUGGNk11124mb8doGr7WqqzSnP4N7fswVbUT0Zzd1nTnLIgjfDyJWPPGu0pODFd0SEUR3fYSaISWnqyTnwfwt4k2fGglx+1Z4kwGrX7t+5A56fST+OZus=', 'Authorization': b'AWS4-HMAC-SHA256 Credential=ASIA2RP6IBYAGGMY3QV6/20260108/us-west-2/bedrock-agentcore/aws4_request, SignedHeaders=host;x-amz-date;x-amz-security-token;x-amzn-bedrock-agentcore-runtime-session-id, Signature=f10e4083fdcbf4261cd6e4dc118daa3f31ff161cc6fddcfb20f0adae57036ff1', 'amz-sdk-invocation-id': b'aee025ec-d603-4f40-9bc3-baa5416b871a', 'amz-sdk-request': b'attempt=1', 'Content-Length': '94'}>
+2026-01-07 17:51:45,258 - botocore.httpsession - DEBUG - Certificate path: /Users/naviret/.local/share/mise/installs/python/3.12.7/lib/python3.12/site-packages/certifi/cacert.pem
+2026-01-07 17:51:45,259 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): bedrock-agentcore.us-west-2.amazonaws.com:443
+2026-01-07 17:56:45,810 - urllib3.connectionpool - DEBUG - https://bedrock-agentcore.us-west-2.amazonaws.com:443 "POST /runtimes/arn%3Aaws%3Abedrock-agentcore%3Aus-west-2%3A724772064768%3Aruntime%2Fsleep_agent-kFTzKmC01Y/invocations HTTP/1.1" 200 None
+2026-01-07 17:56:45,811 - botocore.parsers - DEBUG - Response headers: {'Date': 'Thu, 08 Jan 2026 01:56:45 GMT', 'Content-Type': 'application/json', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'x-amzn-RequestId': 'f8d12c50-7353-4ca3-a247-4b2380973231', 'baggage': 'Self=1-695f0db1-1330b01915f962c434f6c889,session.id=sleep-test-1767837105-1767837105255520', 'X-Amzn-Bedrock-AgentCore-Runtime-Session-Id': 'sleep-test-1767837105-1767837105255520', 'X-Amzn-Trace-Id': 'Root=1-695f0db1-412d73fa7c9db71720b49ff6;Parent=5005f0ca686950e1;Sampled=1;Self=1-695f0db1-1330b01915f962c434f6c889'}
+2026-01-07 17:56:45,811 - botocore.parsers - DEBUG - Response body:
+<botocore.response.StreamingBody object at 0x1060b59f0>
+2026-01-07 17:56:45,811 - botocore.hooks - DEBUG - Event needs-retry.bedrock-agentcore.InvokeAgentRuntime: calling handler <botocore.retryhandler.RetryHandler object at 0x1060b4bf0>
+2026-01-07 17:56:45,811 - botocore.retryhandler - DEBUG - No retry needed.
+✅ SUCCESS: Response received after 300.6 seconds
+📋 Full Response Object: {'ResponseMetadata': {'RequestId': 'f8d12c50-7353-4ca3-a247-4b2380973231', 'HTTPStatusCode': 200, 'HTTPHeaders': {'date': 'Thu, 08 Jan 2026 01:56:45 GMT', 'content-type': 'application/json', 'transfer-encoding': 'chunked', 'connection': 'keep-alive', 'x-amzn-requestid': 'f8d12c50-7353-4ca3-a247-4b2380973231', 'baggage': 'Self=1-695f0db1-1330b01915f962c434f6c889,session.id=sleep-test-1767837105-1767837105255520', 'x-amzn-bedrock-agentcore-runtime-session-id': 'sleep-test-1767837105-1767837105255520', 'x-amzn-trace-id': 'Root=1-695f0db1-412d73fa7c9db71720b49ff6;Parent=5005f0ca686950e1;Sampled=1;Self=1-695f0db1-1330b01915f962c434f6c889'}, 'RetryAttempts': 0}, 'runtimeSessionId': 'sleep-test-1767837105-1767837105255520', 'traceId': 'Root=1-695f0db1-412d73fa7c9db71720b49ff6;Parent=5005f0ca686950e1;Sampled=1;Self=1-695f0db1-1330b01915f962c434f6c889', 'baggage': 'Self=1-695f0db1-1330b01915f962c434f6c889,session.id=sleep-test-1767837105-1767837105255520', 'contentType': 'application/json', 'statusCode': 200, 'response': '{"status": "completed", "duration_seconds": 300, "session_id": "sleep-test-1767837105-1767837105255520", "request_id": "unknown", "completion_time": "2026-01-08T01:56:45.804454", "message": "300s wait test completed successfully"}'}
+⏰ Completed at 17:56:45
+============================================================
