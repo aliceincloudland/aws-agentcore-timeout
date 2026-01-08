@@ -81,14 +81,13 @@ def test_sleep_agent(duration_seconds=10):
         print(f'❌ FAILURE after {duration:.1f} seconds: {e}')
 
 if __name__ == "__main__":
-    # Test different durations based on customer issue V2047108591 latency values (converted from ms to seconds)
+    # Test different durations between 290-300 seconds (4m50s - 5m00s)
     test_cases = [
-        285,  # 284998.0 ms = ~285 seconds
-        291,  # 290968.0 ms = ~291 seconds  
-        342,  # 342277.0 ms = ~342 seconds
-        280,  # Original 4m40s duration from customer Setup 1
-        275,  # Slightly under 4m40s
-        290   # Around 4m50s
+        290,  # 4m50s
+        292,  # 4m52s
+        295,  # 4m55s
+        297,  # 4m57s
+        300   # 5m00s
     ]
     
     for duration in test_cases:
