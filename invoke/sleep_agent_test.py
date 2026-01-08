@@ -6,7 +6,36 @@ import json
 import time
 import logging
 import os
+import socket
 from botocore.config import Config
+
+# Configure aggressive TCP keep-alive to prevent GitHub Actions timeouts
+def enable_socket_keepalive():
+    """Enable aggressive TCP keep-alive probes"""
+    original_socket = socket.socket
+    
+    def socket_with_keepalive(*args, **kwargs):
+        sock = original_socket(*args, **kwargs)
+        sock.setsockopt(socket.SOL_SOCKET, socket.SO_KEEPALIVE, 1)
+        
+        # Start probes after 60 seconds of inactivity
+        if hasattr(socket, 'TCP_KEEPIDLE'):
+            sock.setsockopt(socket.IPPROTO_TCP, socket.TCP_KEEPIDLE, 60)
+        
+        # Send probe every 30 seconds
+        if hasattr(socket, 'TCP_KEEPINTVL'):
+            sock.setsockopt(socket.IPPROTO_TCP, socket.TCP_KEEPINTVL, 30)
+        
+        # Give up after 3 failed probes
+        if hasattr(socket, 'TCP_KEEPCNT'):
+            sock.setsockopt(socket.IPPROTO_TCP, socket.TCP_KEEPCNT, 3)
+        
+        return sock
+    
+    socket.socket = socket_with_keepalive
+
+# Enable keep-alive before any network operations
+enable_socket_keepalive()
 
 # Enable debug logging
 logging.basicConfig(level=logging.DEBUG, format='%(asctime)s - %(name)s - %(levelname)s - %(message)s')
@@ -19,7 +48,9 @@ def test_sleep_agent(duration_seconds=10):
     config = Config(
         read_timeout=900,  # 15 minutes
         connect_timeout=60,
-        retries={'max_attempts': 1}
+        retries={'max_attempts': 1},
+        # Force TCP keep-alive settings
+        tcp_keepalive=True
     )
     
     client = boto3.client('bedrock-agentcore', region_name='us-west-2', config=config)
@@ -81,13 +112,9 @@ def test_sleep_agent(duration_seconds=10):
         print(f'❌ FAILURE after {duration:.1f} seconds: {e}')
 
 if __name__ == "__main__":
-    # Test different durations between 290-300 seconds (4m50s - 5m00s)
+    # Test single problematic duration to verify keep-alive fix
     test_cases = [
-        290,  # 4m50s
-        292,  # 4m52s
-        295,  # 4m55s
-        297,  # 4m57s
-        300   # 5m00s
+        295   # 4m55s - previously failed in GitHub Actions
     ]
     
     for duration in test_cases:
