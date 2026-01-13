@@ -35,7 +35,7 @@ def enable_socket_keepalive():
     socket.socket = socket_with_keepalive
 
 # Enable keep-alive before any network operations
-enable_socket_keepalive()
+#enable_socket_keepalive()
 
 # Enable debug logging
 logging.basicConfig(level=logging.DEBUG, format='%(asctime)s - %(name)s - %(levelname)s - %(message)s')

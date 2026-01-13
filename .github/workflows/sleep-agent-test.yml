@@ -26,7 +26,7 @@ jobs:
         aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
         aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
         aws-session-token: ${{ secrets.AWS_SESSION_TOKEN }}
-        aws-region: us-west-2
+        aws-region: eu-west-1
         
     - name: Test Sleep Agent - Customer Issue V2047108591 Durations
       run: python3 invoke/sleep_agent_test.py
