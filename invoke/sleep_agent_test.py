@@ -53,7 +53,7 @@ def test_sleep_agent(duration_seconds=10):
         tcp_keepalive=True
     )
     
-    client = boto3.client('bedrock-agentcore', region_name='us-west-2', config=config)
+    client = boto3.client('bedrock-agentcore', region_name='eu-west-1', config=config)
     
     payload = {
         'duration_seconds': duration_seconds,
@@ -69,8 +69,8 @@ def test_sleep_agent(duration_seconds=10):
     print('')
     
     try:
-        account_id = "724772064768"
-        agent_arn = "arn:aws:bedrock-agentcore:us-west-2:724772064768:runtime/sleep_agent-kFTzKmC01Y"
+        account_id = "655119772748"
+        agent_arn = "arn:aws:bedrock-agentcore:eu-west-1:655119772748:runtime/longrunning_agent-g3VlcP63SU"
         
         start_time = time.time()
         print(f"📡 Starting invoke at {time.strftime('%H:%M:%S')}")
