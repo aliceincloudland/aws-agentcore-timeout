@@ -1,0 +1,60 @@
+default_agent: longrunning_agent
+agents:
+  longrunning_agent:
+    name: longrunning_agent
+    entrypoint: /home/ec2-user/github-projects/aws-agentcore-timeout/agent/src/main.py
+    deployment_type: container
+    runtime_type: null
+    platform: linux/arm64
+    container_runtime: none
+    source_path: /home/ec2-user/github-projects/aws-agentcore-timeout/agent
+    aws:
+      execution_role: arn:aws:iam::655119772748:role/AmazonBedrockAgentCoreSDKRuntime-eu-west-1-32079653be
+      execution_role_auto_create: false
+      account: '655119772748'
+      region: eu-west-1
+      ecr_repository: 655119772748.dkr.ecr.eu-west-1.amazonaws.com/bedrock-agentcore-longrunning_agent
+      ecr_auto_create: false
+      s3_path: null
+      s3_auto_create: false
+      network_configuration:
+        network_mode: PUBLIC
+        network_mode_config: null
+      protocol_configuration:
+        server_protocol: HTTP
+      observability:
+        enabled: true
+      lifecycle_configuration:
+        idle_runtime_session_timeout: null
+        max_lifetime: null
+    bedrock_agentcore:
+      agent_id: longrunning_agent-g3VlcP63SU
+      agent_arn: arn:aws:bedrock-agentcore:eu-west-1:655119772748:runtime/longrunning_agent-g3VlcP63SU
+      agent_session_id: null
+    codebuild:
+      project_name: bedrock-agentcore-longrunning_agent-builder
+      execution_role: arn:aws:iam::655119772748:role/AmazonBedrockAgentCoreSDKCodeBuild-eu-west-1-32079653be
+      source_bucket: bedrock-agentcore-codebuild-sources-655119772748-eu-west-1
+    memory:
+      mode: STM_ONLY
+      memory_id: longrunning_agent_mem-GJZ4wpFfeh
+      memory_arn: arn:aws:bedrock-agentcore:eu-west-1:655119772748:memory/longrunning_agent_mem-GJZ4wpFfeh
+      memory_name: longrunning_agent_mem
+      event_expiry_days: 30
+      first_invoke_memory_check_done: true
+      was_created_by_toolkit: true
+    identity:
+      credential_providers: []
+      workload: null
+    aws_jwt:
+      enabled: false
+      audiences: []
+      signing_algorithm: ES384
+      issuer_url: null
+      duration_seconds: 300
+    authorizer_configuration: null
+    request_header_configuration: null
+    oauth_configuration: null
+    api_key_env_var_name: null
+    api_key_credential_provider_name: null
+    is_generated_by_agentcore_create: false
