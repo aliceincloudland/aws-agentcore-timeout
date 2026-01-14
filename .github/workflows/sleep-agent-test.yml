@@ -1,4 +1,6 @@
-name: Sleep Agent Test - Customer Issue V2047108591
+name: Sleep Agent Test
+permissions:
+  id-token: write
 
 on:
   workflow_dispatch:
