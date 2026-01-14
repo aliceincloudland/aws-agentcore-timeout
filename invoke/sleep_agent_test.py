@@ -114,11 +114,10 @@ def test_sleep_agent(duration_seconds=10):
 if __name__ == "__main__":
     # Test multiple durations between 290-330 seconds (4m50s - 5m30s) with keep-alive
     test_cases = [
+        100,
+        200,
         290,  # 4m50s
-        295,  # 4m55s
-        300,  # 5m00s
-        310,  # 5m10s
-        320,  # 5m20s
+        300,  # 5m
         325   # 5m25s
     ]
     
